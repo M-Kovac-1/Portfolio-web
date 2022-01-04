@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inspiration&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div class="logo" id="logo">
+      <a href="#">M</a>
+    </div>
+
+    <nav class="navbar">
+      <ul class="link-grp">
+        <li class="link">
+          <a href="#logo">Home</a>
+        </li>
+        <li class="link">
+          <a href="#projects">Projects</a>
+        </li>
+        <li class="link">
+          <a href="#about">About</a>
+        </li>
+        <li class="link">
+          <a href="#contact">Contact</a>
+        </li>
+        <li class="link">
+          <a
+            class="resume-button"
+            href="img\Martin_Kovac_CV.pdf"
+            target="_blank"
+          >
+            Resume
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <ul class="socials-menu">
+      <li>
+        <a
+          href="https://sk-sk.facebook.com/martin.kovac3"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <i class="fab fa-facebook-square"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/M-Kovac-1" target="_blank" rel="noreferrer">
+          <i class="fab fa-github"></i>
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://www.linkedin.com/in/m-kovac/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://instagram.com" target="_blank" rel="noreferrer">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </li>
+    </ul>
+
+    <div class="mail">
+      <a class="mail-link" href="mailto:kovacmartin911@gmail.com"
+        >kovacmartin911@gmail.com</a
+      >
+    </div>
+
+    <!--ABOUT-->
+
+    <div class="about">
+      <span class="first">Hi, my name is</span> <br />
+      <span class="second magic">Martin Kováč.</span> <br />
+      <span class="third">I am a frontend developer.</span> <br />
+      <span class="fourth"
+        >I code frontend for web apps and web pages. Currently, I work <br />
+        as a junior php developer but I'm looking for a new challenge <br />
+        as a React/Javascript developer.</span
+      >
+      <button class="about-btn">Check out my work!</button>
+    </div>
+
+    <!--ABOUT ME-->
+
+    <div class="about-me" id="about">
+      <h2 class="about-header">About me</h2>
+      <div class="inner">
+        <p>
+          Hello! My name is Martin and I enjoy coding frontend stuff. In 2021 i
+          took an 5 month coding bootcamp (frontend development) and switched my
+          career from small business owner to junior developer. This journey was
+          great and I'm thrilled to continue developing my skills and become the
+          best version of myself I can.
+        </p>
+        <br />
+        <p>
+          Shortly before bootcamp ended I got my first job in IT as a junior php
+          developer. Although I had zero knowledge of php and backend in general
+          back then, I jumped on this opportunity and start learning. It was
+          challenging but with first tasks under my belt I became more and more
+          confident in my skills.
+        </p>
+        <br />
+        <p>Here are a few technologies I enjoy working with:</p>
+      </div>
+      <ul class="skill-list-1">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Sass</li>
+        <li>Javascript</li>
+        <li>React</li>
+        <br />
+      </ul>
+      <p>At work or for my personal projects I used also:</p>
+
+      <ul class="skill-list-2">
+        <br />
+        <li>PHP</li>
+        <li>Symfony</li>
+        <li>Git</li>
+        <li>Docker</li>
+        <li>PostgreSQL</li>
+        <li>Bootstrap</li>
+      </ul>
+    </div>
+
+    <!--PROJECTS-->
+    <section class="project-section active" id="projects">
+      <h1 class="project-heading">Projects</h1>
+      <div class="project-container">
+        <div class="project-card">
+          <img src="img\rm.jpg" class="project-img" alt="" />
+          <div class="project-content">
+            <h1 class="project-title">Rick and Morty</h1>
+            <p class="project-info">
+              Wiki-style page of characters in Rick and Morty series. User can
+              find characters by name or filter them by properties. It's built
+              in react and bootstrap and it was a good practice of working with
+              arrays, react components, react-router data fetching from Api and
+              useState + useEffect hooks.
+            </p>
+            <div class="project-btn-grp">
+              <button class="project-btn github">View code</button>
+              <button class="project-btn live">View live</button>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <img class="project-img" src="img\expense.jpg" alt="" />
+          <div class="project-content">
+            <h1 class="project-title">Expense tracker</h1>
+            <p class="project-info">
+              User can create new items he purchased ( including name of the
+              item, price and date of purchase) and filter through existing
+              expenses. It's built in react and it was a good practice of basic
+              react functionality.
+            </p>
+            <div class="project-btn-grp">
+              <button class="project-btn github">View code</button>
+              <button class="project-btn live">View live</button>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <img class="project-img" src="img/project-1.png" alt="" />
+          <div class="project-content">
+            <h1 class="project-title">Coming soon...</h1>
+            <p class="project-info">
+              New project with use of redux which I'm currently learning. Stay
+              tuned!
+            </p>
+            <div class="project-btn-grp">
+              <button class="project-btn github">View code</button>
+              <button class="project-btn live">View live</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--CONTACT FORM-->
+
+    <div class="contact-me" id="contact">
+      <form class="contact-form" action="" method="post">
+        <input type="text" name="name" placeholder="Full name" />
+        <input type="text" name="mail" placeholder="your mail" />
+        <input type="text" name="subject" placeholder="subject" />
+        <textarea name="message" placeholder="message"></textarea>
+        <button type="submit" name="submit">send mail</button>
+      </form>
+    </div>
+
+    <footer class="footer">
+      <div>Built by Martin Kováč &copy; 2021</div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
